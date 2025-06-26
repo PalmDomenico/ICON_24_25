@@ -65,7 +65,7 @@ def main():
     original_dataset_path = os.path.join("dataset", "Location1.csv")
     extended_dataset_path = os.path.join("dataset", "extended_dataset4.csv")
     prolog_file_path = "knowledge_base3.pl"
-    # create_KB(original_dataset_path, extended_dataset_path, prolog_file_path)
+    create_KB(original_dataset_path, extended_dataset_path, prolog_file_path)
 
     models_train(extended_dataset_path)
 
